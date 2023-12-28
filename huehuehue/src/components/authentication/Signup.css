@@ -1,0 +1,46 @@
+.cont{
+    display: flex;
+    margin-top: 5vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup{
+    background-color: #E0E0E0;
+    width: 80vh;
+    padding: 18px;
+}
+
+.form-start{
+    width: 100%;
+}
+
+.custom{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+.headingSignup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    font-size: 48px;
+    color: #d92883
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.transfer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

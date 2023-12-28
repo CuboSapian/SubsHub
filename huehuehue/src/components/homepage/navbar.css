@@ -1,0 +1,93 @@
+/* 1st component for LOGO of SubsHub */
+.main-nav{
+    width: 100%;
+    height: 6rem;
+    display: grid;
+    grid-template-columns: 5rem 1fr 2fr 1fr 5rem;
+    max-height: 7rem;
+    /* background: linear-gradient(180deg, rgba(40, 4, 68, 0.00) -393.3%, #220046 25.49%); */
+    background-color: #e4dde1;
+    /* background-color: #280444; */
+}
+
+.logo{
+    display: grid;
+    grid-column: 2/3;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+
+
+/* 2nd component for main navigation */
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.menu-link{
+    grid-column: 3/4;
+    margin-top: 15px;
+}
+
+.menu-link ul{
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    text-transform: capitalize;
+}
+
+.menu-link ul li a{
+    color: green;
+    font-family: Barlow;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+/* 3rd component for user profile */
+.user-ifc{
+    grid-column: 4/5;
+    height: 4rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 15px;
+    background-color: none;
+}
+
+.designUsr button{
+    --bs-btn-color: #000000;
+    --bs-btn-bg: none;
+    --bs-btn-border-color: none
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: green;
+    --bs-btn-hover-border-color: green;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: green;
+    --bs-btn-active-border-color: green;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}

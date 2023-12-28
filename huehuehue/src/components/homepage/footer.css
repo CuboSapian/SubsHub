@@ -1,0 +1,89 @@
+.footerBackground {
+    background-color: #3a3a3a;
+    color: #e4dde1;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;        
+    border: 3px solid #3a3a3a;
+}
+
+.py-1 {
+    background-color:#e4dde1;
+    width: auto;
+    display: table-row;
+    padding: 10px 0;
+}
+
+.text-body-secondary {
+    color: #6ae580;
+}
+
+.cont1 {
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 20rem;
+    height: 40vh;
+}
+
+.fonts {
+    font-size: 18px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont2,
+.cont3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+}
+
+.cont3 {
+    align-items: flex-start;
+    width: 30rem;
+}
+
+.form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Added style for the Subscribe button */
+.form button {
+    background-color: #6ae580;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #4d9f4d;
+}
+
+.py-5{
+    padding-top: 1rem!important;
+    padding-bottom: 0rem!important;
+    padding-left: 0.5rem!important;
+    padding-right: 0.5rem!important;
+    margin: 1px;
+    border: 1px solid #3a3a3a;
+}
+/* .container-fluid{
+    border: 1px solid #3a3a3a;
+} */
+.d-flex flex-column flex-sm-row justify-content-between py-1  border-top{
+    margin: 0%;
+}
